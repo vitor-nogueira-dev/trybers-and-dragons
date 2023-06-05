@@ -11,10 +11,4 @@ interface Fighter {
   levelUp(): void;
 }
 
-// export interface Attack {
-// }
-
-// export interface ReceiveDamage {
-// }
-
 export default Fighter;
