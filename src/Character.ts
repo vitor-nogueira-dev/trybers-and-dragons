@@ -19,12 +19,10 @@ class Character implements Fighter {
 
   constructor(
     name: string,
-    // Test: Race,
   ) {
     this._name = name;
     this._dexterity = getRandomInt(1, 10);
     this._race = new Elf(name, this._dexterity);
-    // this._race = new Test(name, this._dexterity);
     this._archetype = new Mage(name);
     this._maxLifePoints = this._race.maxLifePoints / 2;
     this._lifePoints = this._maxLifePoints;
