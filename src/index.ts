@@ -9,10 +9,6 @@ const player1 = new Character('Character1');
 const player2 = new Character('Character2');
 const player3 = new Character('Character3');
 
-console.log(player1, 'player 1');
-console.log(player2, 'player 2');
-console.log(player3, 'player 3');
-
 player1.levelUp();
 player1.levelUp();
 player1.levelUp();
