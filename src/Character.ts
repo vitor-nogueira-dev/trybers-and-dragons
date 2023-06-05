@@ -1,7 +1,7 @@
 import { Elf } from './Races';
 import Archetype from './Archetypes/Archetype';
 import Energy from './Energy';
-import Fighter from './Fighter';
+import Fighter, { SimpleFighter } from './Fighter';
 import Race from './Races/Race';
 import Mage from './Archetypes/Mage';
 import getRandomInt from './utils';
@@ -16,7 +16,6 @@ class Character implements Fighter {
   private _dexterity: number;
   private _energy: Energy;
   private _name: string;
-  // private _numberGenerate = getRandomInt(1, 10);
 
   constructor(name: string) {
     this._name = name;
@@ -70,13 +69,9 @@ class Character implements Fighter {
     };
   }
 
-  attack(enemy: Fighter): void {
+  attack(enemy: SimpleFighter): void {
     enemy.receiveDamage(this._strength);
   }
-
-  // special?(enemy: Fighter): void {
-  //   throw new Error('Method not implemented.');
-  // }
 
   levelUp(): void {
     const randomLifePoints = getRandomInt(1, 10);
