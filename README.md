@@ -59,10 +59,10 @@ Instale as dependências [Caso existam] com `npm install`
 
 <details>
   <summary>💡 Stacks utilizadas</summary>
-  
+
   Linguagem de programação: ![Typescript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)&nbsp; </br>
-  Framework de desenvolvimento: ![SOLID](https://img.shields.io/badge/SOLID-007ACC?style=for-the-badge&logo=typescript&logoColor=white)&nbsp; </br>
-  Banco de dados: ![POO](https://img.shields.io/badge/POO-007ACC?style=for-the-badge&logo=typescript&logoColor=white)&nbsp; </br>
+  Estrutura de desenvolvimento: ![SOLID](https://img.shields.io/badge/SOLID-007ACC?style=for-the-badge&logo=typescript&logoColor=white)&nbsp; </br>
+  Programação Orientada a Objetos: ![POO](https://img.shields.io/badge/POO-007ACC?style=for-the-badge&logo=typescript&logoColor=white)&nbsp; </br>
   Ferramenta de análise de código estática: ![ESLint](https://img.shields.io/badge/ESLint-00000F?style=for-the-badge&logo=eslint&logoColor=white)&nbsp; </br>
   Ferramenta de formatação de código: ![Prettier](https://img.shields.io/badge/Prettier-00000F?style=for-the-badge&logo=prettier&logoColor=white)&nbsp; </br>
 </details>
